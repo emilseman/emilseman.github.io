@@ -4,4 +4,4 @@ title: "Začiatok môjho github pages"
 date: 2016-02-25
 ---
 
-Toto je môj prvý post na github pages vo forme blogu.
+Toto je môj prvý _post_ na github pages vo forme blogu.
