@@ -1,2 +1,3 @@
 name: Emil Seman, just a student
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
