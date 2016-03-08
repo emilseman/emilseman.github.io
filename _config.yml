@@ -5,3 +5,8 @@ gems:
   - jemoji
   - jekyll-mentions
   - jekyll-sitemap
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+

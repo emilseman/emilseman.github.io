@@ -1,5 +1,49 @@
 ---
-layout: projects
+layout: default
 title: "TU su moje projekty"
 projectsTitle: Zahrna to vsetky doposial vyrobene
 ---
+
+<h1>{{ page.title }}</h1>
+<h2>{{ page.projectsTitle }}</h2>
+
+<h3>Projekty z kategorie SKUL</h3>
+
+<table>
+<tr>
+<td><b>Nazov projektu</b></td>
+<td>Jazyk projektu</td>
+</tr>
+
+
+
+      {% for project in site.projects %}
+       {% if project.categories contains 'school' %}
+        <tr>
+          <td><a href="{{project.url}}">{{project.name}}</a></td>
+          <td>{{project.language}}</td>
+        </tr>
+        {% endif %}
+      {% endfor %}
+    </table>
+
+
+    <h3>Projekty z kategorie SKUL</h3>
+
+
+<table>
+<tr>
+<td><b>Nazov projektu</b></td>
+<td>Jazyk projektu</td>
+</tr>
+
+
+
+      {% for project in site.projects %}
+        <tr>
+          <td><a href="{{project.url}}">{{project.name}}</a></td>
+          <td>{{project.language}}</td>
+        </tr>
+      {% endfor %}
+    </table>
+

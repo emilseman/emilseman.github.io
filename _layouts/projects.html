@@ -2,24 +2,7 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<h2>{{ page.projectsTitle }}</h2>
+<h1>{{page.name}}</h1>
 
-<ul class="posts">
-
-
-<table>
-<tr>
-<td>Nazov projektu</td>
-<td>Jazyk projektu</td>
-</tr>
-	  {% for proj in site.projects %}
-	    <tr>
-	      <td>{{ proj.name }}</td>
-	      <td>{{ proj.language }}</td>
-	    </tr>
-	  {% endfor %}
-	</table>
-	</ul>
-	
-	
+On this project I used these languages
+<b>{{page.language}}</b>
