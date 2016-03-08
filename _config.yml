@@ -1,7 +1,5 @@
 name: Emil Seman, just a student
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-school: FIIT STU
-work: ATOS IT Solutions and Services
 gems:
   - jekyll-sitemap
