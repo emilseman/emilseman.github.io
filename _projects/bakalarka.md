@@ -2,7 +2,8 @@
 layout: projects
 name: "Bakalarsky projekt"
 language: "C# and python"
-categories: "school"
+categories: school thirdyear
+tags: [nudnyprojekt,velacasu]
 ---
 
 

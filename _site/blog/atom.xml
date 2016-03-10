@@ -4,13 +4,26 @@
 	<title>Emil Seman's Blog</title>
 	<link href="http://emilseman.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://emilseman.github.io/blog"/>
-	<updated>2016-03-08T23:34:15+01:00</updated>
+	<updated>2016-03-10T19:40:35+01:00</updated>
 	<id>http://emilseman.github.io/blog</id>
 	<author>
 		<name>Emil Seman</name>
 		<email>emilseman@gmail.com</email>
 	</author>
 
+	
+		<entry>
+			<title>Tretie cviko</title>
+			<link href="http://emilseman.github.io/blog/2016/03/10/tretie-cviko"/>
+			<updated>2016-03-10T00:00:00+01:00</updated>
+			<id>http://emilseman.github.io//blog/2016/03/10/tretie-cviko</id>
+			<content type="html">&lt;h2 id=&quot;bootstrap-is-alive&quot;&gt;Bootstrap is alive&lt;/h2&gt;
+
+&lt;h3 id=&quot;pridal-som-tu-bootstrap-jupiii-happy&quot;&gt;Pridal som tu bootstrap… jupiii :happy:&lt;/h3&gt;
+
+&lt;p&gt;Uz len to doupravovat a je to super&lt;/p&gt;
+</content>
+		</entry>
 	
 		<entry>
 			<title>Pokracovanie môjho github pages</title>

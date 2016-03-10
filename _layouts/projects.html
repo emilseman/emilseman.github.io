@@ -6,3 +6,15 @@ layout: default
 
 On this project I used these languages
 <b>{{page.language}}</b>
+<br>
+
+{{page.content}}
+
+{% for cat in page.categories %}
+<span class="label label-default">{{cat}}</span>
+{% endfor %}
+
+<p id="post-meta">{{ tags_content }}</p>
+
+
+

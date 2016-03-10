@@ -2,6 +2,7 @@
 layout: post
 title: "Začiatok môjho github pages"
 date: 2016-02-25
+tags: [meaningfull,github]
 ---
 # Tu je nieco o mojich github pages
 Toto je môj prvý _post_ na **github pages** vo forme blogu.

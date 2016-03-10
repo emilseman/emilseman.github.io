@@ -7,9 +7,9 @@ projectsTitle: Zahrna to vsetky doposial vyrobene
 <h1>{{ page.title }}</h1>
 <h2>{{ page.projectsTitle }}</h2>
 
-<h3>Projekty z kategorie SKUL</h3>
+<h3>Skolske projekty</h3>
 
-<table>
+<table class="table">
 <tr>
 <td><b>Nazov projektu</b></td>
 <td>Jazyk projektu</td>
@@ -28,10 +28,10 @@ projectsTitle: Zahrna to vsetky doposial vyrobene
     </table>
 
 
-    <h3>Projekty z kategorie SKUL</h3>
+    <h3>Ostatne projekty</h3>
 
 
-<table>
+<table class="table">
 <tr>
 <td><b>Nazov projektu</b></td>
 <td>Jazyk projektu</td>
@@ -40,10 +40,12 @@ projectsTitle: Zahrna to vsetky doposial vyrobene
 
 
       {% for project in site.projects %}
+      {% unless project.categories contains 'school' %}
         <tr>
           <td><a href="{{project.url}}">{{project.name}}</a></td>
           <td>{{project.language}}</td>
         </tr>
+        {% endunless %}
       {% endfor %}
     </table>
 

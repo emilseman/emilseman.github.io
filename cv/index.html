@@ -7,3 +7,16 @@ title: Emil Seman's Blog
 <h1>{{ page.title }}</h1>
 
 <p>At the time Im working on this site as a Student at FIIT STU Bratislava. I also work at Atos IT Solutions and Services. </p>
+
+<p>Here is a list for my skills </p>
+
+<table>
+    <tr><td>Technology name</td><td>Level of skill</td></tr>
+        {% for skill in site.data.skills %}
+        <tr>
+          <td>{{skill.tech}}</a></td>
+          <td>{{skill.level}}</td>
+        </tr>
+      {% endfor %}
+
+</table>
