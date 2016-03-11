@@ -4,7 +4,7 @@
 	<title>Emil Seman's Blog</title>
 	<link href="http://emilseman.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://emilseman.github.io/blog"/>
-	<updated>2016-03-10T19:40:35+01:00</updated>
+	<updated>2016-03-11T20:39:06+01:00</updated>
 	<id>http://emilseman.github.io/blog</id>
 	<author>
 		<name>Emil Seman</name>
@@ -41,7 +41,7 @@
 			<id>http://emilseman.github.io//blog/2016/02/25/zaciatok-github-pages</id>
 			<content type="html">&lt;h1 id=&quot;tu-je-nieco-o-mojich-github-pages&quot;&gt;Tu je nieco o mojich github pages&lt;/h1&gt;
 &lt;p&gt;Toto je môj prvý &lt;em&gt;post&lt;/em&gt; na &lt;strong&gt;github pages&lt;/strong&gt; vo forme blogu.
-Mojim prvym &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit&lt;/code&gt;om bolo toto bol samozrejme readme file &lt;img class=&quot;emoji&quot; title=&quot;:bowtie:&quot; alt=&quot;:bowtie:&quot; src=&quot;https://assets.github.com/images/icons/emoji/bowtie.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;
+Mojim prvym &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit&lt;/code&gt;om bolo toto bol samozrejme readme file :bowtie:
 Viac o tychto strankach sa da zistit aj zo &lt;a href=&quot;https://github.com/emilseman/emilseman.github.io/&quot;&gt;zdrojoveho kodu&lt;/a&gt;
 Nieco som aj upravil v css file nahranom tymto commitom http://github.com/emilseman/emilseman.github.io/commit/222f231088e4be8ce3a25e1115ccd95ee8f2816c&lt;/p&gt;
 
