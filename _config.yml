@@ -5,6 +5,7 @@ gems:
   - jemoji
   - jekyll-mentions
   - jekyll-sitemap
+  - liquid_reading_time
 collections:
   projects:
     output: true

@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
+ {% capture time %}{{ content | reading_time }}{% endcapture %}
 <h1>{{ page.title }}</h1>
 <ul class="list-group">
 <li class="list-group-item">{{ page.date | date_to_string }}</li>
+<li class="list-group-item">Tento clanok zaberie citanim asi {{ time }} {% if time == '1' %}minutu{% elsif time > '1' and time < '5' %}minuty{% else %}minut{% endif %}</li>
+
 </ul>
+
 <div class="post">
   {{ content }}
 </div>

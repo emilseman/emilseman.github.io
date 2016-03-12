@@ -13,3 +13,15 @@ title: Emil Seman's Blog
 	    <li class="list-group-item"><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+
+
+
+<p>A tu su zosortovane aby sa lahsie hladalo</p>
+
+<ul class="list-group">
+
+{% assign sorted = site.posts | sort: 'title' %}
+      {% for post in sorted %}
+        <li class="list-group-item"><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
