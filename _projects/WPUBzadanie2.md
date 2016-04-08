@@ -63,3 +63,15 @@ Ku koncu dokumentu je vytvorená bibliografia a v texte sa na diela z nej cituje
 <xref linkend="lit.sysmocom"/>
 ```
 cituje na webstránku sysmocomu, v sekcii **BTS Stanice**.
+
+Index resp. zoznam je vytvorený automaticky pomocou tagu hneď za bibliografiou  
+
+```xml
+<index/>
+```
+
+Elementy pre register sú významné pojmy v dokumente. Väčšina z nich spadá do istých kategórií. Napr. OpenBSC softvér patrí pod Osmocom. Tento index bol vytvorený takto:  
+
+```xml
+<indexterm><primary>Osmocom</primary><secondary>OpenBSC</secondary></indexterm>
+```
