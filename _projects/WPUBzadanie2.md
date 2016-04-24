@@ -62,7 +62,7 @@ Ku koncu dokumentu je vytvorená bibliografia a v texte sa na diela z nej cituje
 ```xml
 <xref linkend="lit.sysmocom"/>
 ```
-cituje na webstránku sysmocomu, v sekcii **BTS Stanice**.
+cituje na webstránku sysmocomu, v sekcii **BTS Stanice**. Väčšinou sa jedná o citáciu pod čiarou, a zobrazí sa to, čo je pri danej literatúre zadané v atribúte xreflabel.
 
 Index resp. zoznam je vytvorený automaticky pomocou tagu hneď za bibliografiou  
 
